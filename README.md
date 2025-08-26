@@ -122,6 +122,7 @@ describe('0001 - Two Sum', () => {
 ---
 ## ✅ Solved Problems
 <!-- PROBLEMS_TABLE_START -->
+
 <table>
   <thead>
     <tr>
@@ -145,13 +146,6 @@ describe('0001 - Two Sum', () => {
       <td>Roman To Integer</td>
       <td align="center">Strings</td>
       <td align="center"><a href="src/strings/0013-Roman-to-Integer/Roman-to-Integer.ts">🔗</a></td>
-    </tr>
-
-    <tr>
-      <td align="center"><code>0217</code></td>
-      <td>Contains Duplicate</td>
-      <td align="center">Arrays</td>
-      <td align="center"><a href="src/arrays/0217-contains-duplicate/contains-duplicate.ts">🔗</a></td>
     </tr>
   </tbody>
 </table>
