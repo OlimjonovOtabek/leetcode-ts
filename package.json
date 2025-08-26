@@ -8,7 +8,14 @@
     "dev": "vitest --watch",
     "lint": "eslint --ext .ts src",
     "fix": "eslint --ext .ts src --fix && prettier --write .",
-    "new": "tsx scripts/new-problem.ts"
+    "new": "tsx scripts/new-problem.ts",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{ts,js,json}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -18,9 +25,12 @@
     "eslint": "^9.34.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.5",
     "prettier": "^3.6.2",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2",
+    "typescript-eslint": "^8.41.0",
     "vitest": "^3.2.4"
   },
   "type": "module"

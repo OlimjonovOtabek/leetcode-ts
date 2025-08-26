@@ -1,4 +1,4 @@
-Perfect 👍 Let’s make you a **professional, clean, complete `README.md`** for your LeetCode TypeScript repo. You’ll be able to drop this file straight into your project root.
+![CI](https://github.com/OlimjonovOtabek/leetcode-ts/actions/workflows/ci.yml/badge.svg)
 
 ---
 
