@@ -1,0 +1,27 @@
+{
+  "name": "leetcode-ts",
+  "version": "1.0.0",
+  "description": "Perfect 👍 Let’s make you a **professional, clean, complete `README.md`** for your LeetCode TypeScript repo. You’ll be able to drop this file straight into your project root.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "dev": "vitest --watch",
+    "lint": "eslint --ext .ts src",
+    "fix": "eslint --ext .ts src --fix && prettier --write .",
+    "new": "tsx scripts/new-problem.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "eslint": "^9.34.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "type": "module"
+}
