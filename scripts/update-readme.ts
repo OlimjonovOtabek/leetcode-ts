@@ -69,7 +69,7 @@ const buildTable = (rows: Entry[]) => {
 `;
   const body = rows
     .map(
-      (r) => `<tr>
+      (r) => `\t\t<tr>
       <td align="center"><code>${r.id}</code></td>
       <td>${r.title}</td>
       <td align="center">${r.topic}</td>
