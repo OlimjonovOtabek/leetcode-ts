@@ -144,6 +144,11 @@ Example:
 
 ```bash
 npm run new arrays 0704 binary-search
+npm run dev
+git add .
+git commit -m "feat(arrays): add 0704 binary-search"
+git push
+
 ```
 
 ---
