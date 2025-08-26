@@ -1,1 +1,3 @@
+npx tsx scripts/update-readme.ts
+git add README.md
 npx lint-staged

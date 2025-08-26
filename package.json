@@ -20,9 +20,24 @@
       "vitest related --run"
     ]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "leetcode",
+    "algorithms",
+    "typescript",
+    "data-structures",
+    "interview-prep",
+    "solutions"
+  ],
+  "author": "Olimjonov Otabek olimjonovpublic@gmail.com (https://github.com/OlimjonovOtabek)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OlimjonovOtabek/leetcode-ts.git"
+  },
+  "homepage": "https://github.com/OlimjonovOtabek/leetcode-ts#readme",
+  "bugs": {
+    "url": "https://github.com/OlimjonovOtabek/leetcode-ts/issues"
+  },
   "devDependencies": {
     "@types/node": "^24.3.0",
     "eslint": "^9.34.0",
