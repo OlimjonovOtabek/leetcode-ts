@@ -7,9 +7,9 @@
 This repository contains my personal solutions to [LeetCode](https://leetcode.com/) problems, written in **TypeScript** with automated tests.  
 The main goals are:
 
-- Practice algorithms & data structures 🧩  
-- Keep a clean, well-structured record of solutions 📚  
-- Learn test-driven problem solving ✅  
+- Practice algorithms & data structures 🧩
+- Keep a clean, well-structured record of solutions 📚
+- Learn test-driven problem solving ✅
 
 ---
 
@@ -29,32 +29,33 @@ src/
 ├─ trees/
 └─ utils/        # reusable helpers (ListNode, TreeNode, etc.)
 
-````
+```
 
-- Organized **by topic** (`arrays`, `strings`, `dp`, …)  
-- Each problem has its own folder: `NNNN-kebab-title/` (LeetCode ID + title)  
-- Inside:  
-  - `<title>.ts` → solution  
-  - `<title>.test.ts` → unit tests  
+- Organized **by topic** (`arrays`, `strings`, `dp`, …)
+- Each problem has its own folder: `NNNN-kebab-title/` (LeetCode ID + title)
+- Inside:
+  - `<title>.ts` → solution
+  - `<title>.test.ts` → unit tests
 
 ---
 
 ## ⚙️ Tech Stack
 
-- [TypeScript](https://www.typescriptlang.org/) — strongly typed solutions  
-- [Vitest](https://vitest.dev/) — fast unit testing framework  
-- [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) — linting & formatting  
-- [GitHub Actions](https://docs.github.com/en/actions) — CI to run tests/lint on push  
+- [TypeScript](https://www.typescriptlang.org/) — strongly typed solutions
+- [Vitest](https://vitest.dev/) — fast unit testing framework
+- [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) — linting & formatting
+- [GitHub Actions](https://docs.github.com/en/actions) — CI to run tests/lint on push
 
 ---
 
 ## 🚀 Getting Started
 
 Clone the repository:
+
 ```bash
 git clone https://github.com/OlimjonovOtabek/leetcode-ts.git
 cd leetcode-ts
-````
+```
 
 Install dependencies:
 
@@ -126,6 +127,7 @@ describe('0001 - Two Sum', () => {
 | ---- | ------------------ | ------ | -------------------------------------------------------------- |
 | 0001 | Two Sum            | Arrays | [🔗](src/arrays/0001-two-sum/two-sum.ts)                       |
 | 0217 | Contains Duplicate | Arrays | [🔗](src/arrays/0217-contains-duplicate/contains-duplicate.ts) |
+| 0013 | Roman to Integer   | String | [🔗](src/strings/0013-Roman-to-Integer/Roman-to-Integer.ts)    |
 
 > This table will expand as more problems are solved.
 > (Future improvement: generate it automatically with a script.)
@@ -134,11 +136,11 @@ describe('0001 - Two Sum', () => {
 
 ## 🛠️ Scripts
 
-* `npm run dev` → Run tests in watch mode
-* `npm test` → Run all tests
-* `npm run lint` → Check code style
-* `npm run fix` → Auto-fix lint + format issues
-* `npm run new <topic> <id> <title>` → Scaffold new problem folder (via `scripts/new-problem.ts`)
+- `npm run dev` → Run tests in watch mode
+- `npm test` → Run all tests
+- `npm run lint` → Check code style
+- `npm run fix` → Auto-fix lint + format issues
+- `npm run new <topic> <id> <title>` → Scaffold new problem folder (via `scripts/new-problem.ts`)
 
 Example:
 
@@ -155,10 +157,10 @@ git push
 
 ## 📌 TODO / Roadmap
 
-* [ ] Add auto-README table generator for solved problems
-* [ ] Add utility functions for Linked List & Tree problems
-* [ ] Track difficulty levels (Easy / Medium / Hard)
-* [ ] Explore benchmarking solutions (performance comparisons)
+- [ ] Add auto-README table generator for solved problems
+- [ ] Add utility functions for Linked List & Tree problems
+- [ ] Track difficulty levels (Easy / Medium / Hard)
+- [ ] Explore benchmarking solutions (performance comparisons)
 
 ---
 
@@ -166,4 +168,3 @@ git push
 
 **[@OlimjonovOtabek](https://github.com/OlimjonovOtabek)**
 Passionate about algorithms, TypeScript, and clean code.
-

@@ -16,5 +16,5 @@ export default tseslint.config(
     rules: {
       'import/order': ['error', { 'newlines-between': 'always' }],
     },
-  }
+  },
 );
