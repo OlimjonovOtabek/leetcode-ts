@@ -19,7 +19,7 @@ describe('romanToInt — known tricky numerals', () => {
     ['MMMDCLXVI', 3666], // 3000 + 500 + 100 + 50 + 10 + 5 + 1
     ['MMMDCCCLXXXVIII', 3888], // 3000 + 500 + 300 + 50 + 30 + 8
     ['MMMCMXCIX', 3999], // 3000 + 900 + 90 + 9
-    ['CDXCIX', 499], // 400 + 90 + 9
+    ['CDXCIX', 499], //    400 + 90 + 9
     ['CDXLIV', 444], // 400 + 40 + 4
   ];
 
