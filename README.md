@@ -120,17 +120,43 @@ describe('0001 - Two Sum', () => {
 ```
 
 ---
-
 ## ✅ Solved Problems
+<!-- PROBLEMS_TABLE_START -->
+<table>
+  <thead>
+    <tr>
+      <th align="center">#</th>
+      <th align="left">Title</th>
+      <th align="center">Topic</th>
+      <th align="center">Solution</th>
+    </tr>
+  </thead>
+  <tbody>
 
-| #    | Title              | Topic  | Solution                                                       |
-| ---- | ------------------ | ------ | -------------------------------------------------------------- |
-| 0001 | Two Sum            | Arrays | [🔗](src/arrays/0001-two-sum/two-sum.ts)                       |
-| 0217 | Contains Duplicate | Arrays | [🔗](src/arrays/0217-contains-duplicate/contains-duplicate.ts) |
-| 0013 | Roman to Integer   | String | [🔗](src/strings/0013-Roman-to-Integer/Roman-to-Integer.ts)    |
+    <tr>
+      <td align="center"><code>0001</code></td>
+      <td>Two Sum</td>
+      <td align="center">Arrays</td>
+      <td align="center"><a href="src/arrays/0001-two-sum/two-sum.ts">🔗</a></td>
+    </tr>
 
-> This table will expand as more problems are solved.
-> (Future improvement: generate it automatically with a script.)
+    <tr>
+      <td align="center"><code>0013</code></td>
+      <td>Roman To Integer</td>
+      <td align="center">Strings</td>
+      <td align="center"><a href="src/strings/0013-Roman-to-Integer/Roman-to-Integer.ts">🔗</a></td>
+    </tr>
+
+    <tr>
+      <td align="center"><code>0217</code></td>
+      <td>Contains Duplicate</td>
+      <td align="center">Arrays</td>
+      <td align="center"><a href="src/arrays/0217-contains-duplicate/contains-duplicate.ts">🔗</a></td>
+    </tr>
+  </tbody>
+</table>
+<!-- PROBLEMS_TABLE_END -->
+
 
 ---
 
