@@ -1,6 +1,6 @@
-import solve from "./contains-duplicate";
-describe("0217 - contains-duplicate", () => {
-  it("example", () => {
+import solve from './contains-duplicate';
+describe('0217 - contains-duplicate', () => {
+  it('example', () => {
     expect(solve()).toBeDefined();
   });
 });
