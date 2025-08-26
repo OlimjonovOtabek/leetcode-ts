@@ -9,7 +9,8 @@
     "lint": "eslint --ext .ts src",
     "fix": "eslint --ext .ts src --fix && prettier --write .",
     "new": "tsx scripts/new-problem.ts",
-    "prepare": "husky"
+    "prepare": "husky",
+    "typecheck": "tsc --noEmit"
   },
   "lint-staged": {
     "*.{ts,js,json}": [
