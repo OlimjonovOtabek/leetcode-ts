@@ -1,7 +1,7 @@
 {
   "name": "leetcode-ts",
   "version": "1.0.0",
-  "description": "Perfect 👍 Let’s make you a **professional, clean, complete `README.md`** for your LeetCode TypeScript repo. You’ll be able to drop this file straight into your project root.",
+  "description": "Collection of LeetCode solutions implemented in TypeScript for algorithm practice.",
   "main": "index.js",
   "scripts": {
     "test": "vitest run",
