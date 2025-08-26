@@ -1,7 +1,8 @@
 /**
- * LeetCode #0013 - Roman to Integer
- * Input: MCMXCIV
- * Output: 1994
+ * id: 0013
+ * title: Roman to Integer
+ * topic: strings
+ * difficulty: easy
  */
 export default function romanToInt(s: string): number {
   const romanNumberMap = new Map<string, number>([
@@ -36,7 +37,7 @@ export default function romanToInt(s: string): number {
     X: 10,
 
 
-    
+
     L: 50,
     C: 100,
     D: 500,

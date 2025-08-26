@@ -1,6 +1,8 @@
 ﻿/**
- * LeetCode #1 - Two Sum
- * Time: O(n), Space: O(n)
+ * id: 0001
+ * title: Two Sum
+ * topic: arrays
+ * difficulty: easy
  */
 export default function twoSum(nums: number[], target: number): [number, number] | [] {
   const map = new Map<number, number>();

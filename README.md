@@ -1,4 +1,15 @@
+Here’s a **polished `README.md`** you can drop into your repo — professional, clean, and auto-updatable.
+It includes badges, solved count, project structure, scripts, roadmap, and grouped solved problems.
+
+---
+
+````md
 ![CI](https://github.com/OlimjonovOtabek/leetcode-ts/actions/workflows/ci.yml/badge.svg)
+![TypeScript](https://img.shields.io/badge/language-typescript-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+<!-- SOLVED_COUNT_START -->
+![Solved](https://img.shields.io/badge/solved-2-blue)<!-- SOLVED_COUNT_END -->
 
 ---
 
@@ -15,8 +26,7 @@ The main goals are:
 
 ## 📂 Project Structure
 
-```
-
+```text
 src/
 ├─ arrays/
 │   ├─ 0001-two-sum/
@@ -24,27 +34,30 @@ src/
 │   │   └─ two-sum.test.ts
 │   └─ 0217-contains-duplicate/
 ├─ strings/
+│   └─ 0013-roman-to-integer/
+│       ├─ roman-to-integer.ts
+│       └─ roman-to-integer.test.ts
 ├─ dp/
 ├─ graphs/
 ├─ trees/
 └─ utils/        # reusable helpers (ListNode, TreeNode, etc.)
+````
 
-```
+* Organized **by topic** (`arrays`, `strings`, `dp`, …)
+* Each problem has its own folder: `NNNN-kebab-title/` (LeetCode ID + title)
+* Inside:
 
-- Organized **by topic** (`arrays`, `strings`, `dp`, …)
-- Each problem has its own folder: `NNNN-kebab-title/` (LeetCode ID + title)
-- Inside:
-  - `<title>.ts` → solution
-  - `<title>.test.ts` → unit tests
+  * `<title>.ts` → solution
+  * `<title>.test.ts` → unit tests
 
 ---
 
 ## ⚙️ Tech Stack
 
-- [TypeScript](https://www.typescriptlang.org/) — strongly typed solutions
-- [Vitest](https://vitest.dev/) — fast unit testing framework
-- [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) — linting & formatting
-- [GitHub Actions](https://docs.github.com/en/actions) — CI to run tests/lint on push
+* [TypeScript](https://www.typescriptlang.org/) — strongly typed solutions
+* [Vitest](https://vitest.dev/) — fast unit testing framework
+* [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) — linting & formatting
+* [GitHub Actions](https://docs.github.com/en/actions) — CI to run tests/lint/type-checks on push
 
 ---
 
@@ -120,44 +133,50 @@ describe('0001 - Two Sum', () => {
 ```
 
 ---
-## ✅ Solved Problems
-<!-- PROBLEMS_TABLE_START -->
 
+## ✅ Solved Problems
+
+<!-- PROBLEMS_TABLE_START -->
 <table>
   <thead>
     <tr>
       <th align="center">#</th>
       <th align="left">Title</th>
       <th align="center">Topic</th>
+      <th align="center">Difficulty</th>
       <th align="center">Solution</th>
     </tr>
   </thead>
   <tbody>
-		<tr>
+    <tr>
       <td align="center"><code>0001</code></td>
       <td>Two Sum</td>
       <td align="center">Arrays</td>
+      <td align="center"><img alt="Easy" src="https://img.shields.io/badge/Easy-green" /></td>
       <td align="center"><a href="src/arrays/0001-two-sum/two-sum.ts">🔗</a></td>
-    </tr>		<tr>
+    </tr>
+    <tr>
       <td align="center"><code>0013</code></td>
-      <td>Roman To Integer</td>
+      <td>Roman to Integer</td>
       <td align="center">Strings</td>
+      <td align="center"><img alt="Easy" src="https://img.shields.io/badge/Easy-green" /></td>
       <td align="center"><a href="src/strings/0013-Roman-to-Integer/Roman-to-Integer.ts">🔗</a></td>
     </tr>
-</tbody>
+  </tbody>
 </table>
 <!-- PROBLEMS_TABLE_END -->
-
 
 ---
 
 ## 🛠️ Scripts
 
-- `npm run dev` → Run tests in watch mode
-- `npm test` → Run all tests
-- `npm run lint` → Check code style
-- `npm run fix` → Auto-fix lint + format issues
-- `npm run new <topic> <id> <title>` → Scaffold new problem folder (via `scripts/new-problem.ts`)
+* `npm run dev` → Run tests in watch mode
+* `npm test` → Run all tests
+* `npm run lint` → Check code style
+* `npm run fix` → Auto-fix lint + format issues
+* `npm run typecheck` → Run TypeScript type checking (`tsc --noEmit`)
+* `npm run generate:readme` → Auto-update README (solved count + table)
+* `npm run new <topic> <id> <title>` → Scaffold new problem folder (via `scripts/new-problem.ts`)
 
 Example:
 
@@ -167,17 +186,17 @@ npm run dev
 git add .
 git commit -m "feat(arrays): add 0704 binary-search"
 git push
-
 ```
 
 ---
 
 ## 📌 TODO / Roadmap
 
-- [ ] Add auto-README table generator for solved problems
-- [ ] Add utility functions for Linked List & Tree problems
-- [ ] Track difficulty levels (Easy / Medium / Hard)
-- [ ] Explore benchmarking solutions (performance comparisons)
+* [ ] Auto-README generator (solved count + table ✅ almost done!)
+* [ ] Add utility functions for Linked List & Tree problems
+* [ ] Track difficulty levels (Easy / Medium / Hard) in README
+* [ ] Explore benchmarking solutions (performance comparisons)
+* [ ] Nightly fuzz testing for robustness
 
 ---
 
@@ -185,3 +204,10 @@ git push
 
 **[@OlimjonovOtabek](https://github.com/OlimjonovOtabek)**
 Passionate about algorithms, TypeScript, and clean code.
+
+```
+
+---
+
+Would you like me to also **add difficulty badges (Easy/Medium/Hard)** into the table automatically (using JSDoc comments in your `.ts` files), so the README shows difficulty at a glance?
+```
