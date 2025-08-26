@@ -1,9 +1,7 @@
-Here’s a **polished `README.md`** you can drop into your repo — professional, clean, and auto-updatable.
-It includes badges, solved count, project structure, scripts, roadmap, and grouped solved problems.
+
 
 ---
 
-````md
 ![CI](https://github.com/OlimjonovOtabek/leetcode-ts/actions/workflows/ci.yml/badge.svg)
 ![TypeScript](https://img.shields.io/badge/language-typescript-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -26,7 +24,7 @@ The main goals are:
 
 ## 📂 Project Structure
 
-```text
+
 src/
 ├─ arrays/
 │   ├─ 0001-two-sum/
@@ -41,7 +39,6 @@ src/
 ├─ graphs/
 ├─ trees/
 └─ utils/        # reusable helpers (ListNode, TreeNode, etc.)
-````
 
 * Organized **by topic** (`arrays`, `strings`, `dp`, …)
 * Each problem has its own folder: `NNNN-kebab-title/` (LeetCode ID + title)
@@ -208,6 +205,3 @@ Passionate about algorithms, TypeScript, and clean code.
 ```
 
 ---
-
-Would you like me to also **add difficulty badges (Easy/Medium/Hard)** into the table automatically (using JSDoc comments in your `.ts` files), so the README shows difficulty at a glance?
-```
