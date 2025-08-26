@@ -24,7 +24,7 @@ The main goals are:
 
 ## 📂 Project Structure
 
-
+```
 src/
 ├─ arrays/
 │   ├─ 0001-two-sum/
@@ -39,6 +39,7 @@ src/
 ├─ graphs/
 ├─ trees/
 └─ utils/        # reusable helpers (ListNode, TreeNode, etc.)
+````
 
 * Organized **by topic** (`arrays`, `strings`, `dp`, …)
 * Each problem has its own folder: `NNNN-kebab-title/` (LeetCode ID + title)
