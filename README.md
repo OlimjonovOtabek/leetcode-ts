@@ -133,21 +133,18 @@ describe('0001 - Two Sum', () => {
     </tr>
   </thead>
   <tbody>
-
-    <tr>
+<tr>
       <td align="center"><code>0001</code></td>
       <td>Two Sum</td>
       <td align="center">Arrays</td>
       <td align="center"><a href="src/arrays/0001-two-sum/two-sum.ts">🔗</a></td>
-    </tr>
-
-    <tr>
+    </tr><tr>
       <td align="center"><code>0013</code></td>
       <td>Roman To Integer</td>
       <td align="center">Strings</td>
       <td align="center"><a href="src/strings/0013-Roman-to-Integer/Roman-to-Integer.ts">🔗</a></td>
     </tr>
-  </tbody>
+</tbody>
 </table>
 <!-- PROBLEMS_TABLE_END -->
 

@@ -69,17 +69,16 @@ const buildTable = (rows: Entry[]) => {
 `;
   const body = rows
     .map(
-      (r) => `
-    <tr>
+      (r) => `<tr>
       <td align="center"><code>${r.id}</code></td>
       <td>${r.title}</td>
       <td align="center">${r.topic}</td>
       <td align="center"><a href="${r.relPath}">🔗</a></td>
     </tr>`,
     )
-    .join('\n');
+    .join('');
 
-  const foot = '\n  </tbody>\n</table>\n';
+  const foot = '\n</tbody>\n</table>\n';
   return head + body + foot;
 };
 
