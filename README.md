@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 <!-- SOLVED_COUNT_START -->
-![Solved](https://img.shields.io/badge/solved-2-blue)<!-- SOLVED_COUNT_END -->
+![Solved](https://img.shields.io/badge/solved-3-blue)<!-- SOLVED_COUNT_END -->
 
 ---
 
@@ -159,6 +159,13 @@ describe('0001 - Two Sum', () => {
       <td align="center">Strings</td>
       <td align="center"><img alt="Easy" src="https://img.shields.io/badge/Easy-green" /></td>
       <td align="center"><a href="src/strings/0013-Roman-to-Integer/Roman-to-Integer.ts">🔗</a></td>
+    </tr>
+    <tr>
+      <td align="center"><code>0014</code></td>
+      <td>Longest common prefix</td>
+      <td align="center">Strings</td>
+      <td align="center"><img alt="Easy" src="https://img.shields.io/badge/Easy-green" /></td>
+      <td align="center"><a href="src/strings/0014-longest-common-prefix/longest-common-prefix.ts">🔗</a></td>
     </tr>
   </tbody>
 </table>
