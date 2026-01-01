@@ -171,7 +171,7 @@ describe('0001 - Two Sum', () => {
       <td align="center"><code>0066</code></td>
       <td>Plus One</td>
       <td align="center">Arrays</td>
-      <td align="center"></td>
+      <td align="center"><img alt="Easy" src="https://img.shields.io/badge/Easy-green" /></td>
       <td align="center"><a href="src/arrays/0066-plus-one/plus-one.ts">🔗</a></td>
     </tr>
   </tbody>

@@ -1,5 +1,6 @@
 /**
  * LeetCode #0066 - plus one
+ * difficulty: easy
  */
 export default function plusOne(digits: number[]): number[] {
   // it("example 1", () => {
