@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest run",
+    "debug": "node --inspect-brk ./node_modules/vitest/vitest.mjs run",
     "test:debug": "DEBUG=true vitest run",
     "dev": "vitest --watch",
     "lint": "eslint --ext .ts src",

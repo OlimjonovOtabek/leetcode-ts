@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 <!-- SOLVED_COUNT_START -->
-![Solved](https://img.shields.io/badge/solved-4-blue)<!-- SOLVED_COUNT_END -->
+![Solved](https://img.shields.io/badge/solved-5-blue)<!-- SOLVED_COUNT_END -->
 
 ---
 
@@ -78,6 +78,12 @@ Run all tests:
 
 ```bash
 npm test
+```
+
+Run tests in debugger mode:
+
+```bash
+npm run debug
 ```
 
 Run tests in watch mode (for active problem solving):
@@ -174,6 +180,13 @@ describe('0001 - Two Sum', () => {
       <td align="center"><img alt="Easy" src="https://img.shields.io/badge/Easy-green" /></td>
       <td align="center"><a href="src/arrays/0066-plus-one/plus-one.ts">🔗</a></td>
     </tr>
+    <tr>
+      <td align="center"><code>1672</code></td>
+      <td>Richest Customer Wealth</td>
+      <td align="center">Arrays</td>
+      <td align="center"></td>
+      <td align="center"><a href="src/arrays/1672-Richest-Customer-Wealth/Richest-Customer-Wealth.ts">🔗</a></td>
+    </tr>
   </tbody>
 </table>
 <!-- PROBLEMS_TABLE_END -->
@@ -184,6 +197,7 @@ describe('0001 - Two Sum', () => {
 
 * `npm run dev` → Run tests in watch mode
 * `npm test` → Run all tests
+* `npm run debug` → Run tests with the Node inspector attached
 * `npm run lint` → Check code style
 * `npm run fix` → Auto-fix lint + format issues
 * `npm run typecheck` → Run TypeScript type checking (`tsc --noEmit`)
