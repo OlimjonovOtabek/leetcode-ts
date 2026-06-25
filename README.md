@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 <!-- SOLVED_COUNT_START -->
-![Solved](https://img.shields.io/badge/solved-6-blue)<!-- SOLVED_COUNT_END -->
+![Solved](https://img.shields.io/badge/solved-7-blue)<!-- SOLVED_COUNT_END -->
 
 ---
 
@@ -179,6 +179,13 @@ describe('0001 - Two Sum', () => {
       <td align="center">Arrays</td>
       <td align="center"><img alt="Easy" src="https://img.shields.io/badge/Easy-green" /></td>
       <td align="center"><a href="src/arrays/0066-plus-one/plus-one.ts">🔗</a></td>
+    </tr>
+    <tr>
+      <td align="center"><code>1071</code></td>
+      <td>Greatest Common Divisor Of Strings</td>
+      <td align="center">Strings</td>
+      <td align="center"></td>
+      <td align="center"><a href="src/strings/1071-Greatest-Common-Divisor-of-Strings/Greatest-Common-Divisor-of-Strings.ts">🔗</a></td>
     </tr>
     <tr>
       <td align="center"><code>1672</code></td>
